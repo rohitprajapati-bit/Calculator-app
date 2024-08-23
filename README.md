@@ -1,6 +1,6 @@
 
 # Calculator App using Flutter
-
+## Getting Started
 ## Description
 This is a simple and intuitive calculator app built using Flutter. It performs basic arithmetic operations like addition, subtraction, multiplication, and division with a clean and modern user interface.
 
@@ -12,7 +12,10 @@ Flutter Framework: Leveraging Flutter's capabilities for cross-platform function
 
 ## Android Recording 
 
-Uploading Calculator_Recording (1) (1).mp4…
+
+https://github.com/user-attachments/assets/02ce8fbb-88a1-44c9-aa42-34b410c4d2d4
+
+
 
 
 ## Android Screenshot
