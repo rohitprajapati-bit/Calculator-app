@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/0c584124-4b2d-4fbd-852c-0c4647d0a493
 # Calculator App using Flutter
 
 ## Description
