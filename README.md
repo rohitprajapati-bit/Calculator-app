@@ -11,11 +11,11 @@ Responsive UI: Adapts to different screen sizes.
 Clean Design: Minimalistic and user-friendly interface.
 Flutter Framework: Leveraging Flutter's capabilities for cross-platform functionality.
 
-## Recording 
+## Android Recording 
 
 Uploading CalculatorApp_Recordin .mp4…
 
-## Screenshot
+## Android Screenshot
 
 ![Calculatore App](https://github.com/user-attachments/assets/9d228b56-4dd2-441d-870d-363379014437)
 
