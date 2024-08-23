@@ -13,8 +13,9 @@ Flutter Framework: Leveraging Flutter's capabilities for cross-platform function
 
 ## Recording 
 
-Uploading Calculator_Recording .mp4…
+Uploading CalculatorApp_Recordin .mp4…
 
+## Screenshot
 
-
+![Calculatore App](https://github.com/user-attachments/assets/9d228b56-4dd2-441d-870d-363379014437)
 
