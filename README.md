@@ -9,8 +9,6 @@ A simple and user-friendly calculator application developed using Flutter. The a
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
-- [State Management](#state-management)
 - [Pages and Functionality](#pages-and-functionality)
 - [Setup](#setup)
 - [Contributors](#contributors)
@@ -26,18 +24,6 @@ A simple and user-friendly calculator application developed using Flutter. The a
 
 - **Framework**: Flutter
 - **Language**: Dart
-
-## Architecture
-
-The app follows a simple MVC (Model-View-Controller) architecture:
-
-- **Model**: Manages the calculator's logic and operations.
-- **View**: Displays the calculator's UI, buttons, and result screen.
-- **Controller**: Handles user input and updates the view accordingly.
-
-## State Management
-
-The app uses **setState** to manage the state of the calculator, ensuring real-time updates to the UI as users interact with the app.
 
 ## Pages and Functionality
 
