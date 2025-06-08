@@ -29,26 +29,26 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade800,
+      backgroundColor: Colors.black,
       body: Column(
         children: [
           Expanded(
               child: Align(
-                alignment: Alignment.bottomRight,
-                child: Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: Text(
-                    output,
-                    style: const TextStyle(
-                        fontSize: 35,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),
-                  ),
-                ),
-              )),
+            alignment: Alignment.bottomRight,
+            child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: Text(
+                output,
+                style: const TextStyle(
+                    fontSize: 35,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              ),
+            ),
+          )),
           Container(
             decoration: const BoxDecoration(
-                color: Colors.blueGrey,
+                color: Color.fromARGB(255, 175, 16, 215),
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(30),
                   topLeft: Radius.circular(30),
@@ -83,10 +83,12 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        getButton("4"),
+                        getButton(
+                          "4",
+                        ),
                         getButton("5"),
                         getButton("6"),
-                        getButton("-"),
+                        getButton("￣"),
                       ]),
                 ),
                 Padding(
@@ -110,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         getButton("0"),
                         getButton("."),
-                        getButton("=", buttonColor: Colors.orange),
+                        getButton("=", buttonColor: Colors.green),
                       ]),
                 )
               ],
@@ -121,7 +123,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget getButton(String title, {Color? buttonColor = Colors.white12}) {
+  Widget getButton(String title, {Color? buttonColor = Colors.black}) {
     return MaterialButton(
       elevation: 5,
       onPressed: () {
@@ -131,7 +133,8 @@ class _HomePageState extends State<HomePage> {
         calculate(title);
       },
       color: buttonColor,
-      shape: const CircleBorder(),
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(Radius.circular(10))),
       padding: const EdgeInsets.all(20),
       child: Text(
         title,
