@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
@@ -33,23 +33,21 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [
           Expanded(
-              child: Container(
-            child: Align(
-              alignment: Alignment.bottomRight,
-              child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Text(
-                  "$output",
-                  style: TextStyle(
-                      fontSize: 35,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: Text(
+                    output,
+                    style: const TextStyle(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
+                  ),
                 ),
-              ),
-            ),
-          )),
+              )),
           Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                 color: Colors.blueGrey,
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(30),
@@ -132,13 +130,13 @@ class _HomePageState extends State<HomePage> {
         // });
         calculate(title);
       },
+      color: buttonColor,
+      shape: const CircleBorder(),
+      padding: const EdgeInsets.all(20),
       child: Text(
         title,
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
       ),
-      color: buttonColor,
-      shape: CircleBorder(),
-      padding: EdgeInsets.all(20),
     );
   }
 
